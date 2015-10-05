@@ -1,0 +1,14 @@
+{
+  "title": "Speaker privacy",
+  "name": "speaker-privacy",
+  "version": "0.0.1",
+  "description": "Prevent privacy leak during presentation",
+  "main": "index.js",
+  "author": "Sanpi",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "permissions": {"private-browsing": true},
+  "license": "MIT"
+}
