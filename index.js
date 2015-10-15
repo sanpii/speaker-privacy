@@ -1,3 +1,5 @@
+'use strict';
+
 var privateWindow = 0;
 var name = "browser.urlbar.autocomplete.enabled";
 var originValue = require("sdk/preferences/service").get(name);
